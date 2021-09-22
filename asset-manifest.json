@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Tech-Kart/static/css/main.17aa974d.chunk.css",
+    "main.js": "/Tech-Kart/static/js/main.2b60191c.chunk.js",
+    "main.js.map": "/Tech-Kart/static/js/main.2b60191c.chunk.js.map",
+    "runtime-main.js": "/Tech-Kart/static/js/runtime-main.c8556f4f.js",
+    "runtime-main.js.map": "/Tech-Kart/static/js/runtime-main.c8556f4f.js.map",
+    "static/js/2.8f5d72cb.chunk.js": "/Tech-Kart/static/js/2.8f5d72cb.chunk.js",
+    "static/js/2.8f5d72cb.chunk.js.map": "/Tech-Kart/static/js/2.8f5d72cb.chunk.js.map",
+    "static/js/3.c5944d5e.chunk.js": "/Tech-Kart/static/js/3.c5944d5e.chunk.js",
+    "static/js/3.c5944d5e.chunk.js.map": "/Tech-Kart/static/js/3.c5944d5e.chunk.js.map",
+    "index.html": "/Tech-Kart/index.html",
+    "static/css/main.17aa974d.chunk.css.map": "/Tech-Kart/static/css/main.17aa974d.chunk.css.map",
+    "static/js/2.8f5d72cb.chunk.js.LICENSE.txt": "/Tech-Kart/static/js/2.8f5d72cb.chunk.js.LICENSE.txt",
+    "static/media/headphone.7b3d83f1.png": "/Tech-Kart/static/media/headphone.7b3d83f1.png",
+    "static/media/keyboard.bfe46479.png": "/Tech-Kart/static/media/keyboard.bfe46479.png",
+    "static/media/x-mark-48.fc7c867b.ico": "/Tech-Kart/static/media/x-mark-48.fc7c867b.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8556f4f.js",
+    "static/js/2.8f5d72cb.chunk.js",
+    "static/css/main.17aa974d.chunk.css",
+    "static/js/main.2b60191c.chunk.js"
+  ]
+}
