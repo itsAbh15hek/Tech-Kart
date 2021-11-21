@@ -13,7 +13,12 @@ const Checkout = () => {
     cartData,
     setCartData,
   ] = useContext(CartContext);
-  console.log("cartData", cartData);
+  const clearCart = () => {
+    setCartData((p) => []);
+
+    setCartItemNumber((p) => 0);
+    setCartAmount((p) => 0);
+  };
 
   return (
     <div className="checkout-parent">
@@ -54,6 +59,9 @@ const Checkout = () => {
             <div className="total">
               <p>{`Total Amount: $${cartAmount}`}</p>
             </div>
+            <button className="checkout-btn" onClick={() => clearCart()}>
+              Checkout
+            </button>
           </div>
         ) : (
           <p>Your Cart is empty</p>

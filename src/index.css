@@ -240,7 +240,7 @@ code {
   position: absolute;
   box-shadow: 0 0 2px var(--light-grey);
   top: 0;
-  left: 0;
+  right: 0;
   width: 88vw;
   height: 2px;
 }
@@ -398,6 +398,20 @@ td {
   width: 100%;
   margin-right: 0;
   font-weight: 600;
+}
+.checkout-btn {
+  height: 40px;
+  width: 300px;
+  background-color: var(--white);
+  border: 1px solid var(--dark-orange);
+  border-radius: 5px;
+  box-shadow: 2px 2px var(--dark-orange);
+  font-weight: 600;
+}
+.checkout-btn:focus-visible,
+.checkout-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px var(--dark-orange);
 }
 .footer {
   width: 100%;
