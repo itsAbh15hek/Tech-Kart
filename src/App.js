@@ -1,5 +1,5 @@
 import HomePage from "./pages/HomePage";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Categories from "./pages/Categories";
 import Checkout from "./pages/Checkout";
 import { CartProvider } from "./components/CartContext";
