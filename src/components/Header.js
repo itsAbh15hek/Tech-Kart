@@ -25,12 +25,10 @@ const Header = ({ categoryData, otherCategoryData, isCheckout, isHeader }) => {
       {!isHeader && !isCheckout && (
         <div className="nav">
           <Link
-            to={{
-              pathname: "/catagories",
-              state: {
-                categoryData: headphonesData ? headphonesData : 0,
-                otherCategoryData: keyboardsData ? keyboardsData : 0,
-              },
+            to="/catagories"
+            state={{
+              categoryData: headphonesData ? headphonesData : 0,
+              otherCategoryData: keyboardsData ? keyboardsData : 0,
             }}
           >
             <button className={`nav-btn ${!isKeyboards ? "nav-active" : ""}`}>
@@ -38,12 +36,10 @@ const Header = ({ categoryData, otherCategoryData, isCheckout, isHeader }) => {
             </button>
           </Link>
           <Link
-            to={{
-              pathname: "/catagories",
-              state: {
-                categoryData: keyboardsData ? keyboardsData : 0,
-                otherCategoryData: headphonesData ? headphonesData : 0,
-              },
+            to="/catagories"
+            state={{
+              categoryData: keyboardsData ? keyboardsData : 0,
+              otherCategoryData: headphonesData ? headphonesData : 0,
             }}
           >
             <button className={`nav-btn ${isKeyboards ? "nav-active" : ""}`}>

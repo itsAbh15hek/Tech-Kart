@@ -61,12 +61,10 @@ const HomePage = () => {
       <Header isHeader={true} />
       <div className="home-showcase">
         <Link
-          to={{
-            pathname: "/catagories",
-            state: {
-              categoryData: headphonesData ? headphonesData : 0,
-              otherCategoryData: keyboardsData ? keyboardsData : 0,
-            },
+          to="/catagories"
+          state={{
+            categoryData: headphonesData ? headphonesData : 0,
+            otherCategoryData: keyboardsData ? keyboardsData : 0,
           }}
         >
           <button
@@ -78,12 +76,10 @@ const HomePage = () => {
           </button>
         </Link>
         <Link
-          to={{
-            pathname: "/catagories",
-            state: {
-              categoryData: keyboardsData ? keyboardsData : 0,
-              otherCategoryData: headphonesData ? headphonesData : 0,
-            },
+          to="/catagories"
+          state={{
+            categoryData: keyboardsData ? keyboardsData : 0,
+            otherCategoryData: headphonesData ? headphonesData : 0,
           }}
         >
           <button

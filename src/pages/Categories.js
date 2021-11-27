@@ -10,8 +10,9 @@ const Categories = () => {
     inStock: false,
     expensive: false,
   });
-  const Location = useLocation();
-  const { categoryData, otherCategoryData } = Location.state;
+  const location = useLocation();
+  console.log(location);
+  const { categoryData, otherCategoryData } = location.state;
   const categoryId = categoryData.id;
 
   return (
